@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/620272525da2178887042daf
+
+###
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "habeeb",
+    "subToChannel":"zzc"
+}
+###
+PATCH  http://localhost:3000/subscribers/620272525da2178887042daf
+Content-Type: application/json
+
+{
+    "name": "nirmal"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/620272525da2178887042daf
+
+###
